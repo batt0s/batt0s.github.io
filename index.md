@@ -4,7 +4,7 @@
 
 Matematik ve Bilgisayar Bilimleri 1. sınıf öğrencisiyim. Yıllardır hobi olarak yazılımla uğraşıyorum ve günlük olarak Linux kullanıp sürekli bir şeyler deniyorum.
 
-Bu sitede ilgimi çeken konular hakkında yazılar yazıp tecrübelerimi paylaşıyorum. 
+Bu sitede ilgimi çeken konular hakkında yazılar yazıp tecrübelerimi paylaşıyorum ve gelecekteki kendime notlar bırakıyorum.
 
 [Github Profilim](https://github.com/batt0s)
 
