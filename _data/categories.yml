@@ -9,3 +9,7 @@
 - slug: math
   name: math
   color: '#FFFFFF'
+
+- slug: security
+  name: security
+  color: '#FFFFFF'
