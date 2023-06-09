@@ -1,6 +1,4 @@
-# BattOS Blog
-
-**Linux ve Yazılım**
+## Hakkımda
 
 Matematik ve Bilgisayar Bilimleri 1. sınıf öğrencisiyim. Yıllardır hobi olarak yazılımla uğraşıyorum ve günlük olarak Linux kullanıp sürekli bir şeyler deniyorum.
 
