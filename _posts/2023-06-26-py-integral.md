@@ -7,8 +7,6 @@ title: Python ile Belirli İntegral
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
 window.MathJax = {
   tex: {
     inlineMath: [['$', '$']],
@@ -18,6 +16,9 @@ window.MathJax = {
     fontCache: 'global'
   }
 };
+</script>
+
+
 
 
 
