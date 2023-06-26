@@ -5,6 +5,11 @@ tags: [math,python]
 title: Python ile Belirli İntegral
 ---
 
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
 Bir keresinde C++ ile integral hesabı yapmam gerekmişti, başta çok kolay olacağını düşünmüştüm. O zamanlar daha üniversiteye başlamamıştım. Lisede integral hesaplamak için bir yöntem öğreniriz. $\int x^a dx = \frac{x^{(a+1)}}{a} + c$  Bu yöntemi kağıt üzerinde kullanabilsem de bilgisayarda yapamadım. Daha sonra araştırmalarım *Simpson Kuralı* diye bir şey gördüm ve çok üstüne araştırmadan sadece gördüğüm formülü kodlayıp geçmiştim. Şimdi Matematik ve Bilgisayar Bilimleri okuyorum ve bazı şeyler hakkında daha fazla bilgim, fikrim var. Gördüm ki Nümerik Analiz çok ilgi çekici bir konuymuş. Bu konu hakkında bildiklerim ile bir şeyler yazmaya çalıştım. Konu hakkında uzman değilim eğer yanlış gördüğünüz bir yer varsa bana eposta göndermekten çekinmeyin lütfen.
 
 
