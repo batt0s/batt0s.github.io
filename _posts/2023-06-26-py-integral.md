@@ -13,7 +13,7 @@ title: Python ile Belirli İntegral
 window.MathJax = {
   tex: {
     inlineMath: [['$', '$']],
-    displayMath: [["$$","$$"]]
+    displayMath: [["++","++"]]
   },
   svg: {
     fontCache: 'global'
@@ -49,7 +49,7 @@ Bu eğri uydurma işlemine interpolsayon denir. Polinomlar için *Lagrange İnte
 ##### Lagrange İnterpolasyonu
 
 $(x_0, f_0), (x_1, f_1), (x_2, f_2)$ gibi üç noktadan $f(x) = a_0 + a_1 x + a_2 x^2$ polinomunun geçtiğini düşünelim. 
-$$L_0 = \frac{(x-x_1)(x-x_2)}{(x_0-x_1)(x_0-x_2)}, L_1 = \frac{(x-x_0)(x-x_2)}{(x_1-x_0)(x_1-x_2)}, L_2 = \frac{(x-x_0)(x-x_1)}{(x_2-x_0)(x_2-x_1)}$$
+++L_0 = \frac{(x-x_1)(x-x_2)}{(x_0-x_1)(x_0-x_2)}, L_1 = \frac{(x-x_0)(x-x_2)}{(x_1-x_0)(x_1-x_2)}, L_2 = \frac{(x-x_0)(x-x_1)}{(x_2-x_0)(x_2-x_1)}++
 olmak üzere $f(x) = L_0f_0 + L_1f_1 + L_2f_2$ dir. Daha genel bir tanım ve interpolasyonlar hakkında daha detaylı bilgiler için kaynaklara göz atabilirsiniz. 
 
 ##### Simpson's 1/3 rule
@@ -58,9 +58,9 @@ Simpson yönteminde $n$ farklı parçaya ayırabilirsiniz, benim kullanacağım 
 
 Lagrange interpolasyonu ile bir polinom oluşturalım. Yukarıdaki görseli hatırlayın. $a,b$ ve $m$. 
 
-$$P(x)dx = f(a)\frac{(x-m)(x-b)}{(a-m)(a-b)} + f(m)\frac{(x-a)(x-b)}{(m-a)(m-b)} + f(b)\frac{(x-a)(x-m)}{(b-a)(b-m)}$$
+++P(x)dx = f(a)\frac{(x-m)(x-b)}{(a-m)(a-b)} + f(m)\frac{(x-a)(x-b)}{(m-a)(m-b)} + f(b)\frac{(x-a)(x-m)}{(b-a)(b-m)}++
 olur. İki tarafında integralini alıp düzenlersek şu ifadenin doğruluğunu gösterebiliriz:
-$$\int_a^b P(x)dx = \frac{b-a}{6}[f(a)+4f(\frac{a+b}{2})+f(b)]$$
+++\int_a^b P(x)dx = \frac{b-a}{6}[f(a)+4f(\frac{a+b}{2})+f(b)]++
 Artık elimizde bir formül olduğuna göre bunu kodlayabiliriz.
 
 ```python
@@ -96,21 +96,21 @@ Merak edenler için formülü elde etmenin başka bir yöntemi daha var. *Taylor
 Merak edenler için formülü elde etmenin başka bir yöntemini daha yazmak istiyorum. Bu sefer *Taylor Teoremi* kullanacağım. 
 
 $f \in c^{n+1}[a,b]$ olsun. Yani $f$ fonksiyonu $[a,b]$ aralığı üzerinde $1., 2., ..., (n+1).$ mertebeden sürekli türeve sahip olsun. Ayrıca $x_0 \in [a,b]$ olsun. Bu durumda $\forall x \in [a,b]$ için 
-$$f(x) = f(x_0)+f'(x_0)(x-x_0)+\frac{f''(x_0)}{2!}(x-x_0)^2+...+\frac{f^n(x_0)}{n!}(x-x_0)^n+\frac{f^{n+1}(x_0)}{(n+1)!}c(x)(x-x_0)^{n+1}$$
+++f(x) = f(x_0)+f'(x_0)(x-x_0)+\frac{f''(x_0)}{2!}(x-x_0)^2+...+\frac{f^n(x_0)}{n!}(x-x_0)^n+\frac{f^{n+1}(x_0)}{(n+1)!}c(x)(x-x_0)^{n+1}++
 
 Şimdi tekrardan $\int_a^b f(x)dx$ integralini düşünelim. $f$ fonksiyonunun dördüncü mertebeden sürekli türeve sahip olduğunu var sayalım. $[a,b]$ aralığını eşit uzunluklu iki alt aralığa bölelim. Bu durumda $x_0=a, x_1=x_0+h,x_2=b$ olur. $f$ fonksiyonunu $x_1$ civarında Taylor Serisine açarsak:
 
-$$\int_{x_0}^{x_2} f(x)dx =\int_{x_0}^{x_2} f(x_1)dx + \int_{x_0}^{x_2}  f'(x_1)(x-x_1)dx  + \int_{x_0}^{x_2}  \frac{f''(x_1)(x-x_1)^2}{2}dx  
-	+ \int_{x_0}^{x_2}  \frac{f'''(x_1)(x-x_1)^3}{3!}dx 	+ \int_{x_0}^{x_2}  \frac{f^{4}(c)(x-x_1)^4}{4!}dx $$
+++\int_{x_0}^{x_2} f(x)dx =\int_{x_0}^{x_2} f(x_1)dx + \int_{x_0}^{x_2}  f'(x_1)(x-x_1)dx  + \int_{x_0}^{x_2}  \frac{f''(x_1)(x-x_1)^2}{2}dx  
+	+ \int_{x_0}^{x_2}  \frac{f'''(x_1)(x-x_1)^3}{3!}dx 	+ \int_{x_0}^{x_2}  \frac{f^{4}(c)(x-x_1)^4}{4!}dx ++
 
-$$\int_{x_0}^{x_2} f(x)dx = f(x_1)x |_{x_0}^{x_2} + \frac{f'(x_1)}{2}(x-x_1)^2  |_{x_0}^{x_2} + \frac{f''(x_1)}{6}(x-x_1)^3 |_{x_0}^{x_2} + \frac{f'''(x_1)}{24}(x-x_1)^4  |_{x_0}^{x_2}
-	 + \frac{f^{(4)}(c)}{120}(x-x_1)^5  |_{x_0}^{x_2}$$
+++\int_{x_0}^{x_2} f(x)dx = f(x_1)x |_{x_0}^{x_2} + \frac{f'(x_1)}{2}(x-x_1)^2  |_{x_0}^{x_2} + \frac{f''(x_1)}{6}(x-x_1)^3 |_{x_0}^{x_2} + \frac{f'''(x_1)}{24}(x-x_1)^4  |_{x_0}^{x_2}
+	 + \frac{f^{(4)}(c)}{120}(x-x_1)^5  |_{x_0}^{x_2}++
 
-$$= f(x_1)2h + 0 +\frac{f''(x_1)(h^3)}{3} + 0 + \frac{f^{(4)}h^5}{60}$$
-$$f(x_1)2h + \frac{h^3}{3} (\frac{f(x_0) - 2f(x_1) + f(x_2)}{h^2} - \frac{f^{(4)}(c(x))h^2}{12}) + \frac{f^{(4)}h^5}{60}$$
-$$\frac{h}{3}(f(x_0) - 4f(x_1) + f(x_2)) - \frac{h^5}{90}f^{(4)}(c)$$
+++= f(x_1)2h + 0 +\frac{f''(x_1)(h^3)}{3} + 0 + \frac{f^{(4)}h^5}{60}++
+++f(x_1)2h + \frac{h^3}{3} (\frac{f(x_0) - 2f(x_1) + f(x_2)}{h^2} - \frac{f^{(4)}(c(x))h^2}{12}) + \frac{f^{(4)}h^5}{60}++
+++\frac{h}{3}(f(x_0) - 4f(x_1) + f(x_2)) - \frac{h^5}{90}f^{(4)}(c)++
 Hata terimini ihmal edersek
-$$\int_{x_0}^{x_2} f(x)dx = \frac{h}{3}(f(x_0) + 4f(x_1) + f(x_2))$$
+++\int_{x_0}^{x_2} f(x)dx = \frac{h}{3}(f(x_0) + 4f(x_1) + f(x_2))++
 
 Yine aynı formülü elde edebiliriz. 
 
