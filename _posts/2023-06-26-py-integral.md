@@ -113,4 +113,4 @@ Yine aynı formülü elde edebiliriz.
 ---
 
 Kerem Ü. \
-kerem.ullen@proton.me \
+kerem.ullen@proton.me
