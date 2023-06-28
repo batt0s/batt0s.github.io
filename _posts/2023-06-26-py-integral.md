@@ -16,7 +16,7 @@ MathJax = {
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 </script>
 
-Bir keresinde C++ ile integral hesabı yapmam gerekmişti, başta çok kolay olacağını düşünmüştüm. O zamanlar daha üniversiteye başlamamıştım. Lisede integral hesaplamak için bir yöntem öğreniriz. $\int x^a dx = \frac{x^{(a+1)}}{a} + c$  Bu yöntemi kağıt üzerinde kullanabilsem de bilgisayarda yapamadım. Daha sonra araştırmalarım *Simpson Kuralı* diye bir şey gördüm ve çok üstüne araştırmadan sadece gördüğüm formülü kodlayıp geçmiştim. Şimdi Matematik ve Bilgisayar Bilimleri okuyorum ve bazı şeyler hakkında daha fazla bilgim, fikrim var. Gördüm ki Nümerik Analiz çok ilgi çekici bir konuymuş. Bu konu hakkında bildiklerim ile bir şeyler yazmaya çalıştım. Konu hakkında uzman değilim eğer yanlış gördüğünüz bir yer varsa bana eposta göndermekten çekinmeyin lütfen.
+Bir keresinde C++ ile integral hesabı yapmam gerekmişti, başta çok kolay olacağını düşünmüştüm. O zamanlar daha üniversiteye başlamamıştım. Lisede integral hesaplamak için bir yöntem öğreniriz. $\int x^a dx = \frac{x^{(a+1)}}{a+1} + c$  Bu yöntemi kağıt üzerinde kullanabilsem de bilgisayarda yapamadım. Daha sonra araştırmalarım *Simpson Kuralı* diye bir şey gördüm ve çok üstüne araştırmadan sadece gördüğüm formülü kodlayıp geçmiştim. Şimdi Matematik ve Bilgisayar Bilimleri okuyorum ve bazı şeyler hakkında daha fazla bilgim, fikrim var. Gördüm ki Nümerik Analiz çok ilgi çekici bir konuymuş. Bu konu hakkında bildiklerim ile bir şeyler yazmaya çalıştım. Konu hakkında uzman değilim eğer yanlış gördüğünüz bir yer varsa bana eposta göndermekten çekinmeyin lütfen.
 
 
 ## Nümerik Analiz
@@ -35,7 +35,7 @@ Nümerik analizin farklı hesaplamalar için farklı alt türleri var. Bu yazıd
 
 ![Örnek Görsel (Kaynak:wiki:Simpson's rule)](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Simpsons_method_illustration.svg/220px-Simpsons_method_illustration.svg.png)
 
-Bu eğri uydurma işlemine interpolsayon denir. Polinomlar için *Lagrange İnterpolsayon Polinomu* kullanılabilir. 
+Bu eğri uydurma işlemine interpolasyon denir. Polinomlar için *Lagrange İnterpolasyon Polinomu* kullanılabilir. 
 
 ##### Lagrange İnterpolasyonu
 
