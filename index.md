@@ -11,13 +11,13 @@ Bu sitede ilgimi çeken konular hakkında yazılar yazıp tecrübelerimi paylaş
 ## Projects
 ### [GoShort](https://goshort.onrender.com/)
 - Go öğrenirken yaptığım bir URL kısaltıcı
-- Render üzerinde yayınlandı [GoShort](https://goshort.onrender.com/)
+- Render üzerinde yayınlandı: [GoShort](https://goshort.onrender.com/)
 - Kodları GitHub üzerinde görüntüleyebilirsiniz: [github.com/batt0s/goshort](https://github.com/batt0s/goshort)
 - Bu projeyi yaparken Go da net/http ve [chi](https://github.com/go-chi/chi) paketini kullanarak API yapmayı; [GORM](https://gorm.io/) ve PostgreSQL kullanmayı; JavaScript ile bir API kullanmayı; Go da API için testler yazmayı; GitHub Actions kullanmayı; [Render](https://render.com) da microservice yayınlamayı öğrendim.
 
-### [ea-quotes-api](https://eaquotesapi-1-y2922670.deta.app/)
+### [ea-quotes-api](https://ea-quotes-api.onrender.com/)
 - Python da web scrapping öğrenirken [Evrim Ağacı Sözler](https://evrimagaci.org/sozler) i kullanmıştım. Daha sonra FastAPI öğrenirken böyle bir API yazdım. Büyük bir proje değil ama buraya koymak istedim.
-- [deta](https://deta.sh) üzerinde yayınlandı: [ea-quotes-api](https://eaquotesapi-1-y2922670.deta.app/)
+- [Render](https://render.com) üzerinde yayınlandı: [ea-quotes-api](https://ea-quotes-api.onrender.com/)
 - Kodlarını GitHub üzerinde görüntüleyebilirsiniz: [github.com/batt0s/ea-quotes-api](https://github.com/batt0s/ea-quotes-api)
 
 ## Posts
