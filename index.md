@@ -11,6 +11,7 @@ Yıllardır hobi olarak teknoloj ile uğraşıyorum. Sürekli yeni bir şeyler d
 - Website: [battos.dev](https://battos.dev) <br>
 - Github: [@batt0s](https://github.com/batt0s) <br>
 - LinkedIn: [linkedin.com/in/kerem-ullen](https://linkedin.com/in/kerem-ullen) <br>
+- YouTube: [@packagebattos](https://www.youtube.com/@packagebattos)
 
 
 ## Projeler
