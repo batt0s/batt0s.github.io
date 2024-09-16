@@ -5,7 +5,7 @@ Yazılım Geliştirici, Matematik ve Bilgisayar Bilimleri Lisans Öğrencisi, Li
 Yıllardır hobi olarak teknoloj ile uğraşıyorum. Sürekli yeni bir şeyler deniyorum. Bu sitede ilgimi çeken konular hakkında yazılar yazıp tecrübelerimi paylaşıyor ve kendime notlar bırakıyorum. <br>
 Özellikle Go ve Python kullanıyorum. Server-side yazılımlar geliştirmeye odaklanıyorum ama yazılımın ve matematiğin her türlü dalına ilgim var. <br>
 
-## [Yazılar](https://pages.battos.dev/#yaz%C4%B1lar)
+## [Yazılar](https://pages.battos.dev/#yaz%C4%B1lar-1)
 
 ## Ders Notları
 Eskişehir Osmangazi Üniversitesi, Fen Fakültesi, Matematik ve Bilgisayar Bilimleri. <br>
