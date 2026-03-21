@@ -15,3 +15,9 @@
 
 - slug: security
   name: security
+
+- slug: cryptography
+  name: cryptography
+
+- slug: algebra
+  name: algebra
