@@ -5,7 +5,7 @@ Yazılım Geliştirici, Matematik ve Bilgisayar Bilimleri Lisans Öğrencisi, Li
 Yıllardır hobi olarak teknoloj ile uğraşıyorum. Sürekli yeni bir şeyler deniyorum. Bu sitede ilgimi çeken konular hakkında yazılar yazıp tecrübelerimi paylaşıyor ve kendime notlar bırakıyorum. <br>
 
 ## Bağlantılar
-- Email: [kerem.ullen@pm.me](mailto:kerem.ullen@pm.me) <br>
+- Email: [me@battos.dev](mailto:me@battos.dev) <br>
 - Website: [battos.dev](https://battos.dev) <br>
 - Github: [@batt0s](https://github.com/batt0s) <br>
 - LinkedIn: [linkedin.com/in/kerem-ullen](https://linkedin.com/in/kerem-ullen) <br>
