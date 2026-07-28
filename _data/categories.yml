@@ -13,3 +13,7 @@
 - slug: security
   name: security
   color: '#FFFFFF'
+
+- slug: cryptography
+  name: cryptography
+  color: '#FFFFFF'
