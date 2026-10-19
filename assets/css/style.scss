@@ -36,9 +36,9 @@ header h1 a:visited {
 }
 
 /* Remove the theme's original list markers */
-ul li::before {
-    content: none !important;
-    background: none !important;
+ul li {
+  list-style-image: none !important;
+  list-style: none !important;
 }
 
 ul li::before {
