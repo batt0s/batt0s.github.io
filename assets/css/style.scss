@@ -17,3 +17,36 @@ a:hover {
     color: #ffffff !important;
     background-color: #FF6DFF;
 }
+
+header h1 {
+    color: #FF6DFF !important;
+    text-shadow:
+        0 1px 1px rgba(0, 0, 0, 0.1),
+        0 0 5px rgba(255, 109, 255, 0.25),
+        0 0 10px rgba(255, 109, 255, 0.25);
+}
+
+header h1 a,
+header h1 a:visited {
+    color: #FF6DFF !important;
+    text-shadow:
+        0 1px 1px rgba(0, 0, 0, 0.1),
+        0 0 5px rgba(255, 109, 255, 0.25),
+        0 0 10px rgba(255, 109, 255, 0.25);
+}
+
+/* Remove the theme's original list markers */
+ul li::before {
+    content: none !important;
+    background: none !important;
+}
+
+ul li::before {
+    content: ">>" !important;
+    display: inline-block !important;
+    color: #FF6DFF !important;
+    background: none !important;
+    text-shadow: 0 0 5px rgba(255, 109, 255, 0.25);
+    margin-left: -1.5em;
+    margin-right: 0.5em;
+}
