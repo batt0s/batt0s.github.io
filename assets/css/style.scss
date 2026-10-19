@@ -1,0 +1,18 @@
+---
+---
+$conifer: #FF6DFF;
+
+@import "{{ site.theme }}";
+
+
+a {
+    color: #FF6DFF !important;
+    text-decoration: none !important;
+    position: relative;
+    transition: all 0.2s; 
+}
+
+a:hover {
+    color: #ffffff !important;
+    background-color: #FF6DFF;
+}
