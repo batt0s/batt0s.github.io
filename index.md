@@ -10,7 +10,7 @@ Yıllardır hobi olarak teknoloji ile uğraşıyorum. Sürekli yeni bir şeyler 
 - Github: [@batt0s](https://github.com/batt0s) <br>
 - LinkedIn: [linkedin.com/in/kerem-ullen](https://linkedin.com/in/kerem-ullen) <br>
 - YouTube: [@packagebattos](https://www.youtube.com/@packagebattos) <br>
-- Terminal: `ssh battos.dev -p 23234`
+- Terminal: `ssh battos.dev`
 
 
 ## Projeler
